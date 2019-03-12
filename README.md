@@ -1,10 +1,14 @@
 # How to run
 
-## Clone it or download to a local folder of your choice on your computer and run the following command in the terminal
+### Clone it or download to a local folder of your choice on your computer (eg. Sites)
 
-## For example if you have cloned it to a folder called "Sites":
+`git clone https://github.com/squteronsquter/js-webpack-babel-dev-server-live-reload.git`
 
-`cd ~/Sites/js-webpack-babel-dev-server-live-reload`
+### cd into that directory
+
+`cd js-webpack-babel-dev-server-live-reload`
+
+### and run the following command in the terminal
 
 `npm install`
 

@@ -1,0 +1,30 @@
+{
+  "name": "js-webpack-dev-server-babel",
+  "version": "1.0.0",
+  "description": "Sceleton to start your modern Javascript workflow with Webpack, Babel and Development server with live reload",
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "dev": "webpack-dev-server && npm run watch"
+  },
+  "keywords": [
+    "Javasript",
+    "Babel",
+    "Webpack",
+    "Dev Server"
+  ],
+  "author": "Gray Monk",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.x",
+    "babel-preset-env": "^1.7.0",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.2.1"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "sweetalert2": "^8.3.0"
+  }
+}
